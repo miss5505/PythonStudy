@@ -103,8 +103,9 @@ print("-----------------------------------------------------")
 for cookie in driver.get_cookies():
     print ("%s -> %s" % (cookie['name'], cookie['value']))
 
-
+#关闭单个页面
 #driver.close()
+#退出浏览器
 #driver.quit()
 '''
 html = driver.page_source
